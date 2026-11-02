@@ -108,7 +108,7 @@ export default function BulkPage() {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Starting Roll Number</label>
-            <input type="text" value={startRoll} onChange={(e) => setStartRoll(e.target.value)} placeholder="1230321001 or 1" className="w-full border rounded px-3 py-2" />
+            <input type="text" value={startRoll} onChange={(e) => setStartRoll(e.target.value)} placeholder="1230321080 or 80" className="w-full border rounded px-3 py-2" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Max Results</label>
