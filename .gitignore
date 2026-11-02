@@ -34,6 +34,9 @@ yarn-error.log*
 .env*
 !.env.example
 
+# legacy script containing exposed secrets (do not commit)
+bbdcods_result2324.py
+
 # vercel
 .vercel
 
